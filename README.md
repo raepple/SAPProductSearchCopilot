@@ -50,7 +50,7 @@
 | 3.13 | Select the **EntraIDToken** data element from the **Run a flow from Copilot** Trigger | ![](images/3-13.png) |
 | 3.14 | Rename the action to *Exchange Entra ID Access Token for SAP Access Token* and click **Collapse** | ![](images/3-14.png) |
 | 3.15 | Scroll down and select the SAP data access action **Get all products the user has access to from SAP** from the switch **List categories** case | ![](images/3-15.png) |
-| 3.16 | Delete the placeholder text *<fix missing token here>* in the **Authorization** Headers field. Type in *Bearer<Space>"* and click on the **Flash** icon | ![](images/3-16.png) |
+| 3.16 | Delete the placeholder text *<fix missing token here>* in the **Authorization** Headers field. Type in *`Bearer<Space>`"* and click on the **Flash** icon | ![](images/3-16.png) |
 | 3.17 | Scroll down and select the **SAPToken** data element from the **Exchange EntraID Access Token for SAP Access Token** action | ![](images/3-17.png) |
 | 3.18 | Click **Collapse** | ![](images/3-18.png) |
 | 3.19 | Repeat the steps **3.15** to **3.18** for the two remaining actions **Get all products for a category from SAP** and **Get product details from SAP** | ![](images/3-19.png) |
@@ -66,7 +66,7 @@
 
 | Step | Description | Screenshot |
 | ----------- | ----------- | ----------- |
-| 4.1 | Reload the demo website | ![](images/4-1.png) |
+| 4.1 | Go back to the demo website and click *Start over* | ![](images/4-1.png) |
 | 4.2 | You may need to re-login to the copilot | ![](images/4-2.png) |
 | 4.3 | Start the conversation | ![](images/4-3.png) |
 | 4.4 | Continue until you get the details of a product you are interested in | ![](images/4-4.png) |
