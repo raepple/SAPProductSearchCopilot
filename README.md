@@ -3,6 +3,9 @@
 ## Solution architecture
 ![](images/solarch.png)
 
+Edit `C:\Windows\System32\drivers\etc\hosts`
+40.69.209.245 vhcals4hci.dummy.nodomain vhcals4hci
+
 ## Exercise 1: Launch the SAP Product Search Copilot
 
 | Step | Description | Screenshot |
